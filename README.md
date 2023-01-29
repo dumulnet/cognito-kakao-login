@@ -40,3 +40,28 @@
               }
             }
 ```
+
+
+## Amplify update api
+
+- Lambda에서 생성한 핸들러를 API 경로로 지정
+- Amplify push 반영
+
+<img width="875" alt="스크린샷 2023-01-29 오전 11 32 47" src="https://user-images.githubusercontent.com/112446703/215301267-e899cf24-2564-4200-9b96-cbdae0160659.png">
+
+## Amplify update auth
+
+- Kakao 인증 반영하기
+
+<img width="1067" alt="스크린샷 2023-01-29 오전 11 35 00" src="https://user-images.githubusercontent.com/112446703/215301302-116ba0c2-1da3-4432-bf72-3bb6d586ca14.png">
+
+- Pre-Signup, Post-Confirmation을 커스텀 Lambda 함수로 대체
+
+<img width="1394" alt="스크린샷 2023-01-29 오전 11 36 23" src="https://user-images.githubusercontent.com/112446703/215301329-5bd65b48-ff69-4e34-96fb-f7067c1dad0e.png">
+
+- Amplify push
+
+
+
+
+
