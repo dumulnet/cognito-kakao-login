@@ -17,4 +17,26 @@
 
 <img width="1160" alt="스크린샷 2023-01-29 오전 11 03 05" src="https://user-images.githubusercontent.com/112446703/215300340-bb93d3cf-0c4a-4c43-8bf2-9f2a06e98f81.png">
 
+- Lambda 이어서 바로 생성하기
 <img width="1175" alt="스크린샷 2023-01-29 오전 11 03 40" src="https://user-images.githubusercontent.com/112446703/215300335-efae5c8c-f807-45d0-91ac-a87d798e8efb.png">
+
+- [Lambda 역할 추가](/lambda/kakaologin-cloudformation-template.json)
+`
+...
+ "Resource": {
+                "Fn::Sub": [
+                  "arn:aws:cognito-idp:${region}:${account}:userpool/${userpoolId}",
+                  {
+                    "region": {
+                      "Ref": "AWS::Region"
+                    },
+                    "account": {
+                      "Ref": "AWS::AccountId"
+                    },
+                    "userpoolId": "ap-northeast-2_pL7ji6Sn4"
+                  }
+                ]
+              }
+            }
+
+`
