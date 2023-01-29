@@ -20,7 +20,7 @@
 - Lambda 이어서 바로 생성하기
 <img width="1175" alt="스크린샷 2023-01-29 오전 11 03 40" src="https://user-images.githubusercontent.com/112446703/215300335-efae5c8c-f807-45d0-91ac-a87d798e8efb.png">
 
-- [Lambda 역할 추가]([/lambda/kakaologin-cloudformation-template.json](https://github.com/dumulnet/cognito-kakao-login/blob/a3538bede169ccacc48e14ef11436dbc98242ad9/lambda/kakaologin-cloudformation-template.json#L179))
+- [Lambda 역할 추가](https://github.com/dumulnet/cognito-kakao-login/blob/eb7e0858a74ebc2835f9e43bd9823492d9f4b836/lambda/kakaologin-cloudformation-template.json#L179)
 
 ```
 ...
